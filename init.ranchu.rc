@@ -72,7 +72,6 @@ on post-fs-data
     start qemu-adb-keys
     start qemu-device-state
 
-on zygote-start
     # Create the directories used by the Wireless subsystem
     mkdir /data/vendor/wifi 0771 wifi wifi
     mkdir /data/vendor/wifi/wpa 0770 wifi wifi
