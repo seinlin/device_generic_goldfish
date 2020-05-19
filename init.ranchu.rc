@@ -20,8 +20,6 @@ on post-fs-data
     mkdir /data/vendor/var 0755 root root
     mkdir /data/vendor/var/run 0755 root root
     mkdir /data/vendor/var/run/netns 0755 root root
-
-on zygote-start
     # Create the directories used by the Wireless subsystem
     mkdir /data/vendor/wifi 0771 wifi wifi
     mkdir /data/vendor/wifi/wpa 0770 wifi wifi
